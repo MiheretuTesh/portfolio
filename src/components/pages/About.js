@@ -1,5 +1,5 @@
 import React from "react";
-import SkillCard from '../layout/SkillCard';
+import SkillCards from '../layout/SkillCards';
 import AboutMe from "../layout/AboutMe"
 
 function About() {
@@ -7,8 +7,7 @@ function About() {
     <div id="about">
       {/* <h1>About Page</h1> */}
       <AboutMe />
-      <SkillCard />
-      <SkillCard />
+      <SkillCards />
     </div>
   );
 }

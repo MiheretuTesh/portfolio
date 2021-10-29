@@ -22,7 +22,7 @@ function Navbar() {
         <div id="navbarCollapse" class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <HashLink className="nav-link active" to="/">
+              <HashLink className="nav-link active" to="/#about">
                 About
               </HashLink>
             </li>

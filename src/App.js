@@ -19,11 +19,14 @@ function App() {
       <div className="App">
         <Navbar />
         <Landing />
-        <Switch>
-          <Route exact path="/" component={About} />
-          <Route exact path="/page" component={Work} />
-          <Route render={() => <Redirect to="/" />} />
-        </Switch>
+        <About id="about" />
+        <Work id="works" />
+        <Award id="awrads" />
+        <Contact id="contact" />
+        {/* <Switch>
+          <Route exact path="/" component={About} id="about"/>
+          <Route exact path="/" component={Work} />
+        </Switch> */}
       </div>
     </Router>
   );

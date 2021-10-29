@@ -8,6 +8,7 @@ function About() {
       {/* <h1>About Page</h1> */}
       <AboutMe />
       <SkillCard />
+      <SkillCard />
     </div>
   );
 }

@@ -12,10 +12,10 @@
 }
 
 .container-aboutme {
-  width: 1000px;
-  position: relative;
-  display: flex;
-  justify-content: space-between;
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container-aboutme .card-aboutme {

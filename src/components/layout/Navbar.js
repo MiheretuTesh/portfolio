@@ -22,25 +22,28 @@ function Navbar() {
         <div id="navbarCollapse" class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <HashLink to="/">About</HashLink>
+              <HashLink className="nav-link active" to="/">
+                About
+              </HashLink>
             </li>
             <li class="nav-item">
-              <HashLink smooth to={"/page#works"}>
+              <HashLink className="nav-link active" smooth to={"/page#works"}>
                 Works
               </HashLink>
             </li>
             <li class="nav-item">
               <HashLink
+                className="nav-link active"
                 // example of custom scroll function using the scroll prop
                 scroll={(el) => el.scrollIntoView({ behavior: "smooth" })}
                 to={"/page#awards"}
               >
-                Section Three
+                Awards
               </HashLink>
             </li>
             <li class="nav-item">
-              <HashLink smooth to={"/page#contact"}>
-                Focusable Heading
+              <HashLink className="nav-link active" smooth to={"/page#contact"}>
+                Contact
               </HashLink>
             </li>
           </ul>

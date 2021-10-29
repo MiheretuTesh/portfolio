@@ -1,5 +1,6 @@
 import React from "react";
-
+import { Link } from "react-router-dom;";
+import { HashLink, NavHashLink } from "react-router-hash-link";
 
 function Navbar() {
   return (
@@ -21,24 +22,26 @@ function Navbar() {
         <div id="navbarCollapse" class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a href="" class="nav-link active">
-                Home
-              </a>
+              <HashLink to="/">About</HashLink>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link active">
-                Blog
-              </a>
+              <HashLink smooth to={"/page#works"}>
+                Works
+              </HashLink>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link active">
-                About
-              </a>
+              <HashLink
+                // example of custom scroll function using the scroll prop
+                scroll={(el) => el.scrollIntoView({ behavior: "smooth" })}
+                to={"/page#awards"}
+              >
+                Section Three
+              </HashLink>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link active">
-                Contact
-              </a>
+              <HashLink smooth to={"/page#contact"}>
+                Focusable Heading
+              </HashLink>
             </li>
           </ul>
         </div>

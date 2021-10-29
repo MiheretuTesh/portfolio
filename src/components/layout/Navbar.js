@@ -27,7 +27,7 @@ function Navbar() {
               </HashLink>
             </li>
             <li class="nav-item">
-              <HashLink className="nav-link active" smooth to={"/page#works"}>
+              <HashLink className="nav-link active" smooth to={"/#works"}>
                 Works
               </HashLink>
             </li>
@@ -36,13 +36,13 @@ function Navbar() {
                 className="nav-link active"
                 // example of custom scroll function using the scroll prop
                 scroll={(el) => el.scrollIntoView({ behavior: "smooth" })}
-                to={"/page#awards"}
+                to={"/#awards"}
               >
                 Awards
               </HashLink>
             </li>
             <li class="nav-item">
-              <HashLink className="nav-link active" smooth to={"/page#contact"}>
+              <HashLink className="nav-link active" smooth to={"/#contact"}>
                 Contact
               </HashLink>
             </li>

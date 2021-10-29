@@ -11,12 +11,14 @@ import About from "./components/pages/About";
 import Work from "./components/pages/Work";
 import Award from "./components/pages/Award";
 import Contact from "./components/pages/Contact";
+import Landing from "./components/layout/Landing";
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Navbar />
+        <Landing />
         <Switch>
           <Route exact path="/" component={About} />
           <Route exact path="/page" component={Work} />

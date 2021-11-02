@@ -16,7 +16,7 @@ function AboutMe() {
                   src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true"
                   alt=""
                 />
-                <h3>Design</h3>
+                <h3>Web Developer</h3>
               </div>
             </div>
             <div class="face face2">
@@ -36,7 +36,7 @@ function AboutMe() {
                   src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true"
                   alt=""
                 />
-                <h3>Code</h3>
+                <h3>Mobile Developer</h3>
               </div>
             </div>
             <div class="face face2">
@@ -56,7 +56,7 @@ function AboutMe() {
                   src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true"
                   alt=""
                 />
-                <h3>Launch</h3>
+                <h3>UI/UX Designer</h3>
               </div>
             </div>
             <div class="face face2">

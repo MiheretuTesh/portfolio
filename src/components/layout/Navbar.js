@@ -7,7 +7,7 @@ function Navbar() {
     <nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top">
       <div class="container">
         <a href="/" class="navbar-brand">
-          <i class="fas fa-blog"></i> &nbsp; Blog Template
+          <i class="fas fa-blog"></i> &nbsp; MIHERETU
         </a>
 
         <button

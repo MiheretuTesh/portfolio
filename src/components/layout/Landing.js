@@ -9,8 +9,10 @@ function Landing() {
       <div class="half-half-image-text">
         <div class="container">
           <div class="row pt-5 mt-5">
-            <div class="col-12 col-lg-6">
-              <div class="content">
+            <div class="col-12 col-lg-6 pt-md-5">
+              <h1 className="display-4">Hey, I'm Miheretu</h1>
+              <h5>Web ,Mobile Developer and UX/UI Designer</h5>
+              <div class="pt-3">
                 <p>
                   At Fluid Automotive, our purpose is to make automotive parts
                   easily accessible for everyone. Working with our partner
@@ -20,7 +22,7 @@ function Landing() {
               </div>
             </div>
             <div class="col-12 col-lg-6">
-              <div class="img-worksection">
+              <div class="">
                 <div class="container-hero">
                   <div class="card-hero card0">
                     <div class="border-hero">

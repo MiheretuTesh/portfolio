@@ -1,5 +1,5 @@
 import React from "react";
-import "./Awards.css"
+import "./Awards.css";
 
 function AwardSection() {
   return (
@@ -21,7 +21,7 @@ function AwardSection() {
               </p>
             </figcaption>
           </figure>
-          <figure>
+          <figure className="mr-2">
             <figcaption>
               <h1 style={{ paddingTop: 80 }}>Awards</h1>
             </figcaption>
@@ -41,7 +41,7 @@ function AwardSection() {
               </p>
             </figcaption>
           </figure>
-          <figure className="effect-oscar">
+          <figure className="effect-oscar mr-2">
             <figcaption>
               <img
                 src="https://etc-mysitemyway.s3.amazonaws.com/icons/legacy-previews/icons/rounded-glossy-black-icons-sports-hobbies/047427-rounded-glossy-black-icon-sports-hobbies-cup-trophy.png"
@@ -56,7 +56,7 @@ function AwardSection() {
               </p>
             </figcaption>
           </figure>
-          <figure className="effect-oscar">
+          <figure className="effect-oscar mr-2">
             <figcaption>
               <img
                 src="https://etc-mysitemyway.s3.amazonaws.com/icons/legacy-previews/icons/rounded-glossy-black-icons-sports-hobbies/047427-rounded-glossy-black-icon-sports-hobbies-cup-trophy.png"

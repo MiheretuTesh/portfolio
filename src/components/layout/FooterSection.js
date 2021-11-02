@@ -1,5 +1,7 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function FooterSection() {
   return (
@@ -10,76 +12,62 @@ function FooterSection() {
             <div class="col-md-4 footer-column">
               <ul class="nav flex-column ul-footer">
                 <li class="nav-item">
-                  <span class="footer-title">Product</span>
+                  <span class="footer-title">Miheretu Teshale</span>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link a-footer" href="#">
-                    Product 1
-                  </a>
+                  <Link class="nav-link a-footer" to="#">
+                    Developer
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link a-footer" href="#">
-                    Product 2
-                  </a>
+                  <Link class="nav-link a-footer" to="#">
+                    Designer
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link a-footer" href="#">
-                    Plans & Prices
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link a-footer" href="#">
-                    Frequently asked questions
-                  </a>
+                  <Link class="nav-link a-footer" to="#"></Link>
                 </li>
               </ul>
             </div>
             <div class="col-md-4 footer-column">
               <ul class="nav flex-column ul-footer">
                 <li class="nav-item">
-                  <span class="footer-title">Company</span>
+                  <span class="footer-title">Portfolio</span>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link a-footer" href="#">
-                    About us
-                  </a>
+                  <HashLink class="nav-link a-footer" to="/#about">
+                    About
+                  </HashLink>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link a-footer" href="#">
-                    Job postings
-                  </a>
+                  <HashLink class="nav-link a-footer" to="/#work">
+                    Works
+                  </HashLink>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link a-footer" href="#">
-                    News and articles
-                  </a>
+                  <HashLink class="nav-link a-footer" to="/#award">
+                    Awards
+                  </HashLink>
+                  <HashLink class="nav-link a-footer" to="/#contact">
+                    Contact Me
+                  </HashLink>
                 </li>
               </ul>
             </div>
             <div class="col-md-4 footer-column">
               <ul class="nav flex-column ul-footer">
                 <li class="nav-item">
-                  <span class="footer-title">Contact & Support</span>
+                  <span class="footer-title">Contact</span>
                 </li>
                 <li class="nav-item">
                   <span class="nav-link">
-                    <i class="fas fa-phone"></i>+47 45 80 80 80
+                    <i class="fas fa-phone"></i>+251 965 1957 75
                   </span>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link  a-footer" href="#">
-                    <i class="fas fa-comments"></i>Live chat
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link  a-footer" href="#">
-                    <i class="fas fa-envelope"></i>Contact us
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link  a-footer" href="#">
-                    <i class="fas fa-star"></i>Give feedback
-                  </a>
+                  <span class="nav-link">
+                    <i class="fas fa-envelope"></i>miheretutd@gmail.com
+                  </span>
                 </li>
               </ul>
             </div>
@@ -90,44 +78,39 @@ function FooterSection() {
           </div>
 
           <div class="row text-center">
-            <div class="col-md-4 box">
-              <span class="copyright quick-links">
-                Copyright &copy; Your Website{" "}
-                <script>document.write(new Date().getFullYear())</script>
-              </span>
-            </div>
-            <div class="col-md-4 box">
+            <div class="col-md-12 box">
               <ul class="list-inline social-buttons ul-footer">
                 <li class="list-inline-item">
-                  <a className=" a-footer" href="#">
+                  <Link className=" a-footer" to="#" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                  </Link>
+                </li>
+                <li class="list-inline-item">
+                  <Link className=" a-footer" to="#" target="_blank">
+                    <i class="fab fa-github"></i>
+                  </Link>
+                </li>
+                <li class="list-inline-item">
+                  <Link className=" a-footer" to="#" target="_blank">
+                    <i class="fab fa-google"></i>
+                  </Link>
+                </li>
+                <li class="list-inline-item">
+                  <Link className=" a-footer" to="#" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                  </Link>
+                </li>
+                <li class="list-inline-item">
+                  <Link className=" a-footer" to="#" target="_blank">
                     <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a className=" a-footer" href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a className=" a-footer" href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
-            <div class="col-md-4 box">
-              <ul class="list-inline quick-links">
-                <li class="list-inline-item">
-                  <a className=" a-footer" href="#">
-                    Privacy Policy
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a className=" a-footer" href="#">
-                    Terms of Use
-                  </a>
-                </li>
-              </ul>
+            <div class="col-md-12 box pt-3">
+              <span class="copyright quick-links">
+                Copyright &copy; MIheretu Teshale 2021
+              </span>
             </div>
           </div>
         </div>

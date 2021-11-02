@@ -124,25 +124,25 @@
        -webkit-transform: scale(0);
        transform: scale(0);
    }
-   figure.effect-oscar:hover h2 {
+   figure.effect-oscar h2 {
      transform: scale(0);
      font-size:large;
        -webkit-transform: translate3d(0,0,0);
        transform: translate3d(0,0,0);
    }
-   figure.effect-oscar:hover figcaption::before,
-   figure.effect-oscar:hover p {
+   figure.effect-oscar figcaption::before,
+   figure.effect-oscar p {
        opacity: 1;
        -webkit-transform: scale(1);
        transform: scale(1);
    }
-   figure.effect-oscar:hover figcaption {
+   figure.effect-oscar figcaption {
       background-color: rgba(255, 255, 255, .75);
      -webkit-transition: all 0.75s;
        transition: all 0.75s;
      transform:scale(1);
    }
-   figure.effect-oscar:hover img {
+   figure.effect-oscar img {
        opacity: 0.1;
    }
    @media screen and (max-width: 41.5em) {

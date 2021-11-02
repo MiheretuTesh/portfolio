@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 function SkillCard({ imageScr, title, subtitle, additional }) {
   return (
-    <div class="skill-card">
+    <div class="skill-card pb-5">
       <header class="skill-card__header">
         <img class="skill-card__icon" src={imageScr} alt="HTML5 Logo" />
       </header>

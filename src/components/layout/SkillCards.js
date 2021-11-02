@@ -6,7 +6,7 @@ import "./Landing.css";
 
 function SkillCards() {
   return (
-    <div className="skillard-section pt-5">
+    <div className="skillard-section pt-5 pb-5">
       <h1 className="pb-4">Skills</h1>
       <div className="cards-skill">
         <div class="container pt-5 mt-5">
@@ -31,8 +31,8 @@ function SkillCards() {
                 title="JavaScript"
                 subtitle="Vanilla JavaScript, Also React, Nodejs and Vue"
                 additional={[
-                  "HTML-5 and CSS-3",
-                  "CSS Framing - Bootstarp, TailWind, Semantic UI ...",
+                  "Vanilla JavaScript",
+                  "FrameWorks and Libraries - React, NodeJs, Vue",
                 ]}
               />
             </div>
@@ -40,10 +40,10 @@ function SkillCards() {
               <SkillCard
                 imageScr="https://cdn-icons-png.flaticon.com/512/753/753244.png"
                 title="React"
-                subtitle="Vanilla JavaScript, Also React, Nodejs and Vue"
+                subtitle="React, Redux"
                 additional={[
-                  "HTML-5 and CSS-3",
-                  "CSS Framing - Bootstarp, TailWind, Semantic UI ...",
+                  "React Class and Functional Components",
+                  "State Management - Using React Redux",
                 ]}
               />
             </div>
@@ -109,60 +109,6 @@ function SkillCards() {
             </div>
           </div>
         </div>
-        {/* <div className="container">
-          <div>
-            <p className="text-muted">Web</p>
-          </div>
-
-          <div className="row">
-            <div className="col-sm-6 col-md-4 col-8 pt-3">
-              <SkillCard />
-            </div>
-            <div className="col-sm-6 col-md-4 col-8 pt-3">
-              <SkillCard />
-            </div>
-            <div className="col-sm-6 col-md-4 col-8 pt-3">
-              <SkillCard />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-sm-6 col-md-4 col-8 pt-3">
-              <SkillCard />
-            </div>
-            <div className="col-sm-6 col-md-4 col-8 pt-3">
-              <SkillCard />
-            </div>
-            <div className="col-sm-6 col-md-4 col-8 pt-3">
-              <SkillCard />
-            </div>
-          </div>
-          <div>
-            <p className="text-muted pt-5 mt-3">Mobile</p>
-          </div>
-
-          <div className="row">
-            <div className="col-sm-6 col-md-4 col-8 pt-3">
-              <SkillCard />
-            </div>
-            <div className="col-sm-6 col-md-4 col-8 pt-3">
-              <SkillCard />
-            </div>
-            <div className="col-sm-6 col-md-4 col-8 pt-3">
-              <SkillCard />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-sm-6 col-md-4 col-8 pt-3">
-              <SkillCard />
-            </div>
-            <div className="col-sm-6 col-md-4 col-8 pt-3">
-              <SkillCard />
-            </div>
-            <div className="col-sm-6 col-md-4 col-8 pt-3">
-              <SkillCard />
-            </div>
-          </div>
-        </div> */}
       </div>
     </div>
   );

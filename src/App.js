@@ -12,6 +12,7 @@ import Work from "./components/pages/Work";
 import Award from "./components/pages/Award";
 import Contact from "./components/pages/Contact";
 import Landing from "./components/layout/Landing";
+import FooterSection from "./components/layout/FooterSection";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Work id="works" />
         <Award id="awrads" />
         <Contact id="contact" />
+        <FooterSection />
         {/* <Switch>
           <Route exact path="/" component={About} id="about"/>
           <Route exact path="/" component={Work} />

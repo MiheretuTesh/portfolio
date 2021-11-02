@@ -1,5 +1,5 @@
 import React from "react";
-import "Footer.css";
+import "./Footer.css";
 
 function FooterSection() {
   return (
@@ -132,7 +132,6 @@ function FooterSection() {
           </div>
         </div>
       </footer>
-      Q
     </div>
   );
 }

@@ -34,3 +34,130 @@ body {
   border-radius: 30px;
   border: 1px solid #9b5de5;
 }
+
+.half-half-image-text {
+  padding: 70px 0px;
+}
+.half-half-image-text h1 {
+  color: #800000;
+}
+.half-half-image-text .content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 35px 0px;
+}
+.half-half-image-text .content p {
+  font-size: 22px;
+}
+.half-half-image-text .img-worksection {
+  min-height: 320px;
+  height: 100%;
+  border-radius: 10px;
+}
+.img-worksection {
+  background-image: url("./temaribet.png") no-repeat center;
+  background-size: cover;
+}
+
+/* Hero Image style */
+
+.container-hero {
+  /* height: 100vh;
+  width: 100vw;
+  max-height: 800px;
+  max-width: 1280px;
+  min-height: 600px;
+  min-width: 1000px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.border-hero {
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+.border-hero:hover {
+  border: 1px solid #fff;
+}
+.card-hero {
+  height: 379px;
+  width: 300px;
+  background: #808080;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.card0 {
+  background: url("https://media-exp1.licdn.com/dms/image/C4E03AQHA_K90EmHcxw/profile-displayphoto-shrink_800_800/0/1618915386229?e=1641427200&v=beta&t=jS-o3LwCc8bmyMd5cIAimN5wJcQZyH6tz71JNB387XY")
+    center center no-repeat;
+  background-size: 300px;
+}
+.card0:hover {
+  background: url("https://media-exp1.licdn.com/dms/image/C4E03AQHA_K90EmHcxw/profile-displayphoto-shrink_800_800/0/1618915386229?e=1641427200&v=beta&t=jS-o3LwCc8bmyMd5cIAimN5wJcQZyH6tz71JNB387XY")
+    left center no-repeat;
+  background-size: 600px;
+}
+.card0:hover h2 {
+  opacity: 1;
+}
+.card0:hover .fa {
+  opacity: 1;
+}
+.h2-hero {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.fa {
+  opacity: 0;
+  font-size: 4rem !important;
+  transition: opacity 1s;
+}
+.icons-hero {
+  position: absolute;
+  fill: #fff;
+  color: #fff;
+  height: 130px;
+  top: 226px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hero-tag {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.25rem !important;
+
+}
+.fa-linkedin:hover{
+  color: #0077b5;
+}
+.fa-github:hover{
+  color: #333;
+}
+.fa-instagram:hover{
+  color: #ffdc80;
+}
+.fa-google:hover{
+  color: #ea4335;
+}
+.fa-twitter:hover{
+  color: #14171a;
+}

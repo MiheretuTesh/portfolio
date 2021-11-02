@@ -1,14 +1,14 @@
 .skillard-section {
   margin: 0;
   padding: 0;
-  min-height: 50vh;
+  /* min-height: 50vh; */
   /* background: #fff; */
   font-family: consolas;
 }
 .cards-skill {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
 }
 /* .card-skill-felx {
   width: 1000px;
@@ -18,7 +18,7 @@
 } */
 body,
 html {
-  background-color: #eee;
+  background-color: #eee!important;
   /* font-family: "Open Sans", sans-serif; */
   font-size: 16px;
   font-weight: 400;

@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
   min-height: 50vh;
-  background: #fff;
+  background: #fff !important;
   font-family: consolas;
+  
 }
 .aboutme {
   display: flex;
@@ -12,14 +13,14 @@
 }
 
 .container-aboutme {
-    width: 1000px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
+    /* width: 1000px; */
+    /* position: relative; */
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 .container-aboutme .card-aboutme {
-  position: relative;
+  /* position: relative; */
   cursor: pointer;
 }
 
@@ -31,7 +32,7 @@
 
 .container-aboutme .card-aboutme .face.face1 {
   position: relative;
-  background: #333;
+  background: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,12 +41,12 @@
 }
 
 .container-aboutme .card-aboutme:hover .face.face1 {
-  background: #ff0057;
+  background: #343A40;
   transform: translateY(0);
 }
 
 .container-aboutme .card-aboutme .face.face1 .content {
-  opacity: 0.2;
+  opacity: 0.5;
   transition: 0.5s;
 }
 
@@ -60,7 +61,7 @@
 .container-aboutme .card-aboutme .face.face1 .content h3 {
   margin: 10px 0 0;
   padding: 0;
-  color: #333;
+  color: rgb(109, 108, 108);
   text-align: center;
   font-size: 1.5em;
 }

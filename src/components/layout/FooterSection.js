@@ -5,7 +5,7 @@ function FooterSection() {
   return (
     <div>
       <footer>
-        <div class="container">
+        <div class="container ">
           <div class="row">
             <div class="col-md-4 footer-column">
               <ul class="nav flex-column ul-footer">

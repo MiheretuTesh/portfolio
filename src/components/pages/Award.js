@@ -1,9 +1,10 @@
 import React from "react";
+import AwardSection from '../layout/AwardSection'
 
 function Award() {
   return (
     <div id="awards">
-      <h1>Awtds Page</h1>
+      <AwardSection />
     </div>
   );
 }

@@ -18,7 +18,7 @@
 } */
 body,
 html {
-  background-color: #eee!important;
+  background-color: #eee !important;
   /* font-family: "Open Sans", sans-serif; */
   font-size: 16px;
   font-weight: 400;
@@ -74,7 +74,7 @@ html {
 }
 .skill-card .skill-card__header {
   position: relative;
-  background-color: #eb6c3f;
+  background-color: #fff;
   height: 170px;
   margin: -20px -20px 20px -20px;
   transition: height 0.5s;

@@ -5,13 +5,14 @@
   padding: 0;
   background-color: #fff;
   padding-bottom: 100px;
+  text-align: left !important;
 }
 
 .section-header {
   /* text-align: center; */
   margin: 0 auto;
   padding: 40px 0;
-  font: 300 60px "Oswald", sans-serif;
+
   color: #333;
   text-transform: uppercase;
   letter-spacing: 6px;
@@ -47,17 +48,16 @@ textarea {
   height: 34px;
   width: 400px;
   overflow: hidden;
-  background-color: #343A40;  
+  background-color: #343a40;
   color: #fff;
 }
 .send-button:hover {
   height: 34px;
   width: 400px;
   overflow: hidden;
-  background-color: #343A40;  
+  background-color: #343a40;
   color: #fff;
 }
-
 
 .send-text {
   display: block;
@@ -84,8 +84,6 @@ textarea {
 }
 
 .contact-text {
-  font: 300 18px "Lato", sans-serif;
-  letter-spacing: 1.9px;
   color: #bbb;
 }
 
@@ -247,4 +245,33 @@ hr {
   .send-button {
     width: 99%;
   }
+}
+
+/* .contact-icon{
+  color:rgb(27, 27, 27) !important;
+  background-color:rgb(170, 152, 152) !important;
+
+  font-size: 1.5rem !important;
+  padding: 0 1rem !important;
+} */
+.contact-icon i {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(27, 27, 27) !important;
+
+  font-size: 2rem !important;
+  margin: 0 1rem !important;
+  padding: 0.75rem !important;
+  border-radius: 50%;
+}
+.contact-icon i:hover {
+  color: rgb(27, 27, 27) !important;
+  background-color: rgb(200,178,170) !important;
+
+  font-size: 2rem !important;
+  margin: 0 1rem !important;
+  padding: 0.75rem !important;
+  border-radius: 50%;
+}
+.contact-icon .fa {
+  font-size: 1.5rem !important;
 }

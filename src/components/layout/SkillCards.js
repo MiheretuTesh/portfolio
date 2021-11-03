@@ -7,9 +7,9 @@ import "./Landing.css";
 function SkillCards() {
   return (
     <div className="skillard-section pt-5 pb-5">
-      <h1 className="pb-4">Skills</h1>
+      <h1 className="">Skills</h1>
       <div className="cards-skill">
-        <div class="container pt-5 mt-5">
+        <div class="container pt-3 mt-3">
           <div>
             <h6>Web Technologies</h6>
           </div>

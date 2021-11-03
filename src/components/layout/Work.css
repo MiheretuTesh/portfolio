@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   padding: 35px 0px;
+  text-align: left !important;
 }
 .half-half-image-text .content p {
   font-size: 22px;

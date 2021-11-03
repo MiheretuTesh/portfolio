@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import { ExternalLink } from "react-external-link";
 
 function FooterSection() {
   return (
@@ -16,12 +17,12 @@ function FooterSection() {
                 </li>
                 <li class="nav-item">
                   <Link class="nav-link a-footer" to="#">
-                    Developer
+                    Web Developer
                   </Link>
                 </li>
                 <li class="nav-item">
                   <Link class="nav-link a-footer" to="#">
-                    Designer
+                    Mobile Developer
                   </Link>
                 </li>
                 <li class="nav-item">
@@ -81,24 +82,40 @@ function FooterSection() {
             <div class="col-md-12 box">
               <ul class="list-inline social-buttons ul-footer">
                 <li class="list-inline-item">
-                  <Link className=" a-footer" to="#" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                  </Link>
-                </li>
-                <li class="list-inline-item">
-                  <Link className=" a-footer" to="#" target="_blank">
+                  <ExternalLink
+                    href="https://github.com/MiheretuTesh"
+                    target="_blank"
+                    className="a-footer"
+                  >
                     <i class="fab fa-github"></i>
-                  </Link>
+                  </ExternalLink>
                 </li>
                 <li class="list-inline-item">
-                  <Link className=" a-footer" to="#" target="_blank">
+                  <ExternalLink
+                    className=" a-footer"
+                    href="https://linkedin.com/in/miheretu-teshale-064b39207"
+                    target="_blank"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                  </ExternalLink>
+                </li>
+                <li class="list-inline-item">
+                  <ExternalLink
+                    className=" a-footer"
+                    href="mailto:miheretutd@gmail.com"
+                    target="_blank"
+                  >
                     <i class="fab fa-google"></i>
-                  </Link>
+                  </ExternalLink>
                 </li>
                 <li class="list-inline-item">
-                  <Link className=" a-footer" to="#" target="_blank">
+                  <ExternalLink
+                    className=" a-footer"
+                    href="https://www.instagram.com/miheretu_/"
+                    target="_blank"
+                  >
                     <i class="fab fa-instagram"></i>
-                  </Link>
+                  </ExternalLink>
                 </li>
                 <li class="list-inline-item">
                   <Link className=" a-footer" to="#" target="_blank">

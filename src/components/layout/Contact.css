@@ -262,10 +262,11 @@ hr {
   margin: 0 1rem !important;
   padding: 0.75rem !important;
   border-radius: 50%;
+  transition: 0.5s ease-in-out;
 }
 .contact-icon i:hover {
   color: rgb(27, 27, 27) !important;
-  background-color: rgb(200,178,170) !important;
+  background-color: rgb(206, 206, 206) !important;
 
   font-size: 2rem !important;
   margin: 0 1rem !important;

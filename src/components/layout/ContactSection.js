@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import { ExternalLink } from "react-external-link";
+import { withRouter, useHistory  } from "react-router-dom";
 import { useState } from "react";
 import { send } from "emailjs-com";
 
@@ -10,9 +11,11 @@ function ContactSection() {
     message: "",
     reply_to: "",
   });
+  let history = useHistory();
 
   const onSubmit = (e) => {
     e.preventDefault();
+    history.push("/");
     send(
       "service_cor4tkj",
       "template_3e9umib",
@@ -95,6 +98,11 @@ function ContactSection() {
                 </button>
               </div>
             </form>
+            <div>
+              {/* {isSent === 200
+                ? "Message sent SuccessFully"
+                : "Message failed to send"} */}
+            </div>
           </div>
           <div className="col-md-6">
             <div className="direct-contact-container">
@@ -173,4 +181,4 @@ function ContactSection() {
   );
 }
 
-export default ContactSection;
+export default (ContactSection);

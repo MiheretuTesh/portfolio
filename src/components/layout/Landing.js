@@ -7,7 +7,7 @@ function Landing() {
     <div id="landing-section">
       <div class="half-half-image-text">
         <div class="container">
-          <div class="row pt-5 mt-5">
+          <div class="row pt-5">
             <div class="col-12 col-lg-6 pt-md-5">
               <h1 className="display-4">Hey, I'm Miheretu</h1>
               <h5 className="display-4">

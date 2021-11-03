@@ -2,7 +2,7 @@
   background-color: rgba(250, 251, 252, 0.9) !important;
 }
 .navbar-section-link {
-  font-weight: 600 !important;
+  font-weight: 700 !important;
   color: #1f2937 !important;
   padding: 0.75rem 1rem !important ;
 }
@@ -13,4 +13,5 @@
 
 .nav-text{
     font-weight: 700;
+    color: #1f2937 !important;
 }

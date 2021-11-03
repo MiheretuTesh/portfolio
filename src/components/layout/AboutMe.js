@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./AboutMe.css";
-import HeroText from "./HeroText";
 
 function AboutMe() {
   return (
@@ -24,9 +22,9 @@ function AboutMe() {
                 <div class="face face2">
                   <div class="content">
                     <p>
-                      I have 3 year of Experience in the Web Developement Area.
-                      I have worked in both Frontend and Backend develoment Area.
-                      React, Nodejs, HTML/CSS...
+                      For the past three years, I've worked in the field of web
+                      development. I've been working as a FullStack Developer.
+                      HTML/CSS, JS, React, NodeJs ... are some of my skills.
                     </p>
                   </div>
                 </div>
@@ -46,7 +44,8 @@ function AboutMe() {
                 <div class="face face2">
                   <div class="content">
                     <p>
-                      I have been Working in mobile development for the last 2 years. I have experience in Java, Kotlin and Flutter.
+                      I have been working in mobile development for the last 2
+                      years. I have worked with Java, Kotlin and Flutter.
                     </p>
                   </div>
                 </div>
@@ -66,7 +65,10 @@ function AboutMe() {
                 <div class="face face2">
                   <div class="content">
                     <p>
-                      I have UI/IX experience. 
+                       I have UI/IX experience. I've been designing user
+                      interfaces for both websites and mobile devices. The tool
+                      I mainly used is Figma, which is a great platform for
+                      designing UI.
                     </p>
                   </div>
                 </div>

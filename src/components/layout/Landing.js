@@ -1,24 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Landing.css";
-import temaribetImage from "./temaribet.png";
-import { ExternalLink } from 'react-external-link';
 
 function Landing() {
   return (
-    <div>
+    <div id="landing-section">
       <div class="half-half-image-text">
         <div class="container">
           <div class="row pt-5 mt-5">
             <div class="col-12 col-lg-6 pt-md-5">
               <h1 className="display-4">Hey, I'm Miheretu</h1>
-              <h5>Web ,Mobile Developer and UX/UI Designer</h5>
+              <h5 className="display-4">
+                Web, Mobile Developer and UX/UI Designer
+              </h5>
               <div class="pt-3">
                 <p>
-                  At Fluid Automotive, our purpose is to make automotive parts
-                  easily accessible for everyone. Working with our partner
-                  brands, we aim to retail the highest quality parts, whilst
-                  maintaining a high level of customer satisfaction.
+                  I’m a Web , Mobile Developer and UX/UI Designer based in Addis
+                  Ababa, Ethiopia. Coding is my passion and my professional
+                  focus. Developing applications for the web and Mobile (both
+                  android and IOS) has become my thing. I have been developing
+                  web and mobile applications for last 4+ years.
                 </p>
               </div>
             </div>
@@ -27,9 +28,9 @@ function Landing() {
                 <div class="container-hero">
                   <div class="card-hero card0">
                     <div class="border-hero">
-                      <h2 className="h2-hero">Miheretu teshale</h2>
+                      <h2 className="h2-hero">Miheretu Teshale</h2>
                       <div class="icons-hero">
-                        <Link 
+                        <Link
                           to="/linkedin"
                           target="_blank"
                           className="hero-tag"

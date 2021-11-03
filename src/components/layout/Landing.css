@@ -1,19 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 
-body {
+#landing-section {
   font-family: "Poppins", sans-serif !important;
 }
-#filled:hover {
-  background-color: white !important;
-  color: black !important;
-}
 
-
-.half-half-image-text {
+#landing-section {
   padding: 70px 0px;
+  text-align: right !important;
 }
 .half-half-image-text h1 {
-  color: #800000;
+  color: #1f2937 !important;
+  font-weight: 600 !important;
+  font-size: 48px !important;
+}
+#landing-section h5 {
+  color: #1f2937 !important;
+  font-weight: 600 !important;
+  font-size: 70px !important;
 }
 .half-half-image-text .content {
   height: 100%;
@@ -118,20 +121,19 @@ body {
   text-decoration: none;
   color: #fff;
   font-size: 1.25rem !important;
-
 }
-.fa-linkedin:hover{
+.fa-linkedin:hover {
   color: #0077b5;
 }
-.fa-github:hover{
+.fa-github:hover {
   color: #333;
 }
-.fa-instagram:hover{
+.fa-instagram:hover {
   color: #ffdc80;
 }
-.fa-google:hover{
+.fa-google:hover {
   color: #ea4335;
 }
-.fa-twitter:hover{
+.fa-twitter:hover {
   color: #14171a;
 }

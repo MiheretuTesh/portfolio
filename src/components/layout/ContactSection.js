@@ -61,7 +61,7 @@ function ContactSection() {
             <li className="list-item">
               <i className="fas fa-phone fa-2x">
                 <span className="contact-text phone">
-                  <a href="tel:1-212-555-5555" title="Give me a call">
+                  <a href="tel:+251965195775" title="Give me a call">
                     (+251) 965-1957-75
                   </a>
                 </span>
@@ -71,7 +71,7 @@ function ContactSection() {
             <li className="list-item">
               <i className="fas fa-envelope fa-2x">
                 <span className="contact-text gmail">
-                  <a href="mailto:#" title="Send me an email">
+                  <a href="mailto:miheretutd@gmail.com" title="Send me an email">
                     miheretutd@gmail.com
                   </a>
                 </span>

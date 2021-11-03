@@ -54,8 +54,8 @@ function WorkSection() {
                 question to if they are in state of donating a blood.
                 <br />
                 This project is both web based and mobile based project. The web
-                application was done using React, REact-Hooks, Nodejs(API) and
-                PostgresSQl. The mobile application was done using Flutter, Bloc
+                application was done using React, React-Hooks, Nodejs(API) and
+                PostgreSQl. The mobile application was done using Flutter, Bloc
                 for the state management, Nodejs and MongoDB.
               </p>
             </div>

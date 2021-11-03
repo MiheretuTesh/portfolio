@@ -5,8 +5,13 @@ function AwardSection() {
   return (
     <div className="container-awards">
       <div className="about-awardsbox">
+        <figure className="mr-2 mb-4">
+          <figcaption>
+            <h1 style={{ paddingTop: 80 }}>Awards and Achievemnts</h1>
+          </figcaption>
+        </figure>
         <div className="grid2">
-          <figure className="effect-oscar">
+          {/* <figure className="effect-oscar">
             <figcaption>
               <img
                 src="https://etc-mysitemyway.s3.amazonaws.com/icons/legacy-previews/icons/rounded-glossy-black-icons-sports-hobbies/047427-rounded-glossy-black-icon-sports-hobbies-cup-trophy.png"
@@ -14,19 +19,15 @@ function AwardSection() {
                 alt=""
               />
               <p>
-                Fastest growing web company of 2010
+                DataStructure and Algorithm course
                 <br />
                 <br />
-                -Somebody
+                Coursera
               </p>
             </figcaption>
-          </figure>
-          <figure className="mr-2">
-            <figcaption>
-              <h1 style={{ paddingTop: 80 }}>Awards</h1>
-            </figcaption>
-          </figure>
-          <figure className="effect-oscar">
+          </figure> */}
+
+          {/* <figure className="effect-oscar">
             <figcaption>
               <img
                 src="https://etc-mysitemyway.s3.amazonaws.com/icons/legacy-previews/icons/rounded-glossy-black-icons-sports-hobbies/047427-rounded-glossy-black-icon-sports-hobbies-cup-trophy.png"
@@ -40,7 +41,7 @@ function AwardSection() {
                 -Somebody
               </p>
             </figcaption>
-          </figure>
+          </figure> */}
           <figure className="effect-oscar mr-2">
             <figcaption>
               <img
@@ -49,10 +50,10 @@ function AwardSection() {
                 alt=""
               />
               <p>
-                Best use of CSS ever, 2012
+                DataStructure and Algorithm course
                 <br />
                 <br />
-                -Somebody
+                Coursera
               </p>
             </figcaption>
           </figure>
@@ -64,10 +65,10 @@ function AwardSection() {
                 alt=""
               />
               <p>
-                Award for most overuse of awards, 2013
+                Kotlin course
                 <br />
                 <br />
-                -Somebody
+                Udacity
               </p>
             </figcaption>
           </figure>
@@ -79,10 +80,10 @@ function AwardSection() {
                 alt=""
               />
               <p>
-                Fastest growing web company of 2014
+                Search Engine Optimization
                 <br />
                 <br />
-                -Somebody
+                Udemy
               </p>
             </figcaption>
           </figure>

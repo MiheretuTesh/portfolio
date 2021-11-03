@@ -1,11 +1,40 @@
 import React from "react";
 import "./Contact.css";
-import { Link, NavLink } from "react-router-dom";
 import { ExternalLink } from "react-external-link";
-import { useState } from 'react';
-import { send } from 'emailjs-com';
+import { useState } from "react";
+import { send } from "emailjs-com";
 
 function ContactSection() {
+  const [toSend, setToSend] = useState({
+    first_name: "",
+    message: "",
+    reply_to: "",
+  });
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    send(
+      "service_cor4tkj",
+      "template_3e9umib",
+      toSend,
+      "user_yUrizf70frsFk82j5ysh9"
+    )
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+      })
+      .catch((err) => {
+        console.log("FAILED...", err);
+      });
+    setToSend({
+      first_name: "",
+      message: "",
+      reply_to: "",
+    });
+  };
+
+  const handleChange = (e) => {
+    setToSend({ ...toSend, [e.target.name]: e.target.value });
+  };
   return (
     <section id="contact">
       <div className="row">
@@ -14,14 +43,21 @@ function ContactSection() {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <form id="contact-form" className="form-horizontal">
+            <form
+              id="contact-form"
+              className="form-horizontal"
+              onSubmit={onSubmit}
+            >
               <div className="col-sm-12">
                 <div class="form-group">
                   <input
                     type="text"
+                    name="first_name"
                     class="form-control"
                     id="exampleFormControlInput1"
                     placeholder="Name"
+                    value={toSend.first_name}
+                    onChange={handleChange}
                   />
                 </div>
               </div>
@@ -33,6 +69,9 @@ function ContactSection() {
                     class="form-control"
                     id="exampleFormControlInput1"
                     placeholder="Email"
+                    name="reply_to"
+                    value={toSend.reply_to}
+                    onChange={handleChange}
                   />
                 </div>
               </div>
@@ -43,12 +82,15 @@ function ContactSection() {
                     class="form-control"
                     id="exampleFormControlTextarea1"
                     rows="7"
+                    name="message"
+                    value={toSend.message}
+                    onChange={handleChange}
                   ></textarea>
                 </div>
               </div>
 
               <div className="col-sm-12">
-                <button type="button" class="btn btn-sm send-button">
+                <button type="submit" class="btn btn-sm send-button">
                   Submit
                 </button>
               </div>

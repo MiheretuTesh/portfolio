@@ -1,13 +1,14 @@
 import React from "react";
 // import { Link } from "react-router-dom;";
-import { HashLink, NavHashLink } from "react-router-hash-link";
+import "./Navbar.css";
+import { HashLink } from "react-router-hash-link";
 
 function Navbar() {
   return (
-    <nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top">
+    <nav class="navbar navbar-light navbar-expand-sm bg-light fixed-top">
       <div class="container">
         <a href="/" class="navbar-brand">
-          <i class="fas fa-blog"></i> &nbsp; MIHERETU
+          <i class="fas fa-blog"></i> &nbsp; <span className="nav-text">MIHERETU</span>
         </a>
 
         <button

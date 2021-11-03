@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Landing.css";
 import temaribetImage from "./temaribet.png";
+import { ExternalLink } from 'react-external-link';
 
 function Landing() {
   return (
@@ -28,8 +29,8 @@ function Landing() {
                     <div class="border-hero">
                       <h2 className="h2-hero">Miheretu teshale</h2>
                       <div class="icons-hero">
-                        <Link
-                          to="http://LinkedIn.com"
+                        <Link 
+                          to="/linkedin"
                           target="_blank"
                           className="hero-tag"
                         >

@@ -25,10 +25,15 @@ function App() {
         <Award id="awrads" />
         <Contact id="contact" />
         <FooterSection />
-        {/* <Switch>
-          <Route exact path="/" component={About} id="about"/>
-          <Route exact path="/" component={Work} />
-        </Switch> */}
+        <Switch>
+          <Route
+            path="/linkedin"
+            component={() => {
+              window.location.href = "www.linkedin.com/in/miheretu-teshale-064b39207";
+              return null;
+            }}
+          />{" "}
+        </Switch>
       </div>
     </Router>
   );

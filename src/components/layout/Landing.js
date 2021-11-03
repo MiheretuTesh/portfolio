@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Landing.css";
+import { ExternalLink } from "react-external-link";
 
 function Landing() {
   return (
@@ -30,8 +31,8 @@ function Landing() {
                     <div class="border-hero">
                       <h2 className="h2-hero">Miheretu Teshale</h2>
                       <div class="icons-hero">
-                        <Link
-                          to="/linkedin"
+                        <ExternalLink
+                          href="https://linkedin.com/in/miheretu-teshale-064b39207"
                           target="_blank"
                           className="hero-tag"
                         >
@@ -39,9 +40,9 @@ function Landing() {
                             class="fab fa-linkedin fa-hero"
                             aria-hidden="true"
                           ></i>
-                        </Link>
-                        <Link
-                          to="http://github.com"
+                        </ExternalLink>
+                        <ExternalLink
+                          href="https://github.com/MiheretuTesh"
                           target="_blank"
                           className="hero-tag"
                         >
@@ -49,9 +50,9 @@ function Landing() {
                             class="fab fa-github fa-hero"
                             aria-hidden="true"
                           ></i>
-                        </Link>
-                        <Link
-                          to="http://google.com"
+                        </ExternalLink>
+                        <ExternalLink
+                          href="mailto:miheretutd@gmail.com"
                           target="_blank"
                           className="hero-tag"
                         >
@@ -59,9 +60,9 @@ function Landing() {
                             class="fab fa-google fa-hero"
                             aria-hidden="true"
                           ></i>
-                        </Link>
-                        <Link
-                          to="http://instagram.com"
+                        </ExternalLink>
+                        <ExternalLink
+                          href="https://www.instagram.com/miheretu_/"
                           target="_blank"
                           className="hero-tag"
                         >
@@ -69,9 +70,9 @@ function Landing() {
                             class="fab fa-instagram fa-hero"
                             aria-hidden="true"
                           ></i>
-                        </Link>
-                        <Link
-                          to="http://twitter.com"
+                        </ExternalLink>
+                        <ExternalLink
+                          href="https://www.instagram.com/miheretu_/"
                           target="_blank"
                           className="hero-tag"
                         >
@@ -79,7 +80,7 @@ function Landing() {
                             class="fab fa-twitter fa-hero"
                             aria-hidden="true"
                           ></i>
-                        </Link>
+                        </ExternalLink>
                       </div>
                     </div>
                   </div>

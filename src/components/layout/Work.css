@@ -1,4 +1,4 @@
-#work{
+#work {
   background-color: #fff;
 }
 .half-half-image-text {
@@ -27,6 +27,12 @@
   background-size: cover;
 }
 
-.donation-image{
-  width: 80% !important;;
+.donation-image {
+  width: 80% !important;
+}
+
+.header-text {
+  font-size: 40px !important;
+  font-weight: 500 !important;
+  font-family: "Poppins", sans-serif !important;
 }

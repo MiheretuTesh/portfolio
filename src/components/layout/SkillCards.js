@@ -25,6 +25,7 @@ function SkillCards() {
             <div class="col-lg-4 col-md-6 col-10 col-sm-10 offset-md-0 offset-sm-2 offset-2 pt-5">
               <SkillCard
                 imageScr={html}
+                alt="HTML logo"
                 title="HTML/CSS"
                 subtitle="HTML 5 and CSS 3 with 3 years of experience"
                 additional={[
@@ -36,6 +37,7 @@ function SkillCards() {
             <div class="col-lg-4 col-md-6 col-10 col-sm-10 offset-md-0 offset-sm-2 offset-2 pt-5">
               <SkillCard
                 imageScr={javascript}
+                alt="JavaScript icon"
                 title="JavaScript"
                 subtitle="Vanilla JavaScript with three year of experience"
                 additional={[
@@ -47,6 +49,7 @@ function SkillCards() {
             <div class="col-lg-4 col-md-6 col-10 col-sm-10 offset-md-0 offset-sm-2 offset-2 pt-5">
               <SkillCard
                 imageScr={react}
+                alt="React Icon"
                 title="React"
                 subtitle="React - with two years of Experiences"
                 additional={[
@@ -58,6 +61,7 @@ function SkillCards() {
             <div class="col-lg-4 col-md-6 col-10 col-sm-10 offset-md-0 offset-sm-2 offset-2 pt-5">
               <SkillCard
                 imageScr={node}
+                alt="node icon"
                 title="NodeJs"
                 subtitle="NodeJs - with two years of Experiences"
                 additional={[
@@ -70,6 +74,7 @@ function SkillCards() {
             <div class="col-lg-4 col-md-6 col-10 col-sm-10 offset-md-0 offset-sm-2 offset-2 pt-5">
               <SkillCard
                 imageScr={python}
+                alt="Django and Flask Icon"
                 title="Django/Flask"
                 subtitle="Django/Flask - with two years of Experiences"
                 additional={[
@@ -86,6 +91,7 @@ function SkillCards() {
             <div class="col-lg-4 col-md-6 col-10 col-sm-10 offset-md-0 offset-sm-2 offset-2 pt-5">
               <SkillCard
                 imageScr={flutter}
+                alt="Flutter icon"
                 title="Flutter"
                 subtitle="Flutter - with one years of Experiences"
                 additional={["Material-UI", "State Management - using BLoC"]}
@@ -94,6 +100,7 @@ function SkillCards() {
             <div class="col-lg-4 col-md-6 col-10 col-sm-10 offset-md-0 offset-sm-2 offset-2 pt-5">
               <SkillCard
                 imageScr={kotlin}
+                alt={kotlin}
                 title="Kotlin"
                 subtitle="Kotlin - with two years of Experiences"
                 additional={[]}
@@ -102,6 +109,7 @@ function SkillCards() {
             <div class="col-lg-4 col-md-6 col-10 col-sm-10 offset-md-0 offset-sm-2 offset-2 pt-5">
               <SkillCard
                 imageScr={java}
+                alt="java Icon"
                 title="Java - with two years of Experiences"
                 subtitle="Native Android Application"
                 additional={[]}

@@ -7,7 +7,9 @@ function AwardSection() {
       <div className="about-awardsbox">
         <figure className="mr-2 mb-4">
           <figcaption>
-            <h1 style={{ paddingTop: 80 }}>Awards and Achievemnts</h1>
+            <h1 style={{ paddingTop: 80 }} className="header-text">
+              Awards and Achievemnts
+            </h1>
           </figcaption>
         </figure>
         <div className="grid2">

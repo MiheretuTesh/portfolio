@@ -8,7 +8,7 @@ import designerdevelop from "./aboutmeImg/designerdevelop.png"
 function AboutMe() {
   return (
     <div className="aboutme-section pt-5 pb-5">
-      <h1 className="pt-2">I am a ...</h1>
+      <h1 className="pt-2 header-text">I am a ...</h1>
       <div className="aboutme">
         <div class="container container-aboutme">
           <div class="row pt-4">

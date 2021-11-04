@@ -15,7 +15,7 @@ import react from "./skillImg/react.png";
 function SkillCards() {
   return (
     <div className="skillard-section pt-5 pb-5">
-      <h1 className="">Skills</h1>
+      <h1 className="header-text">Skills</h1>
       <div className="cards-skill">
         <div class="container pt-3 mt-3">
           <div>

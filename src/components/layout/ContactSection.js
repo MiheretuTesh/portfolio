@@ -52,7 +52,7 @@ function ContactSection() {
   return (
     <section id="contact">
       <div className="row">
-        <h1 className="section-header">Contact</h1>
+        <h1 className="section-header header-text">Contact</h1>
       </div>
       <div className="container">
         <div className="row">

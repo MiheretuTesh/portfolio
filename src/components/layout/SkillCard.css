@@ -114,3 +114,9 @@ html {
   transition-delay: 0.5s;
   transform: translateX(-100%);
 }
+
+.header-text {
+  font-size: 40px !important;
+  font-weight: 500 !important;
+  font-family: "Poppins", sans-serif !important;
+}

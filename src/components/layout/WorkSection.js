@@ -9,7 +9,7 @@ function WorkSection() {
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1>Works</h1>
+            <h1 className="header-text">Works</h1>
             <p>Some of project that I have involved in </p>
           </div>
         </div>

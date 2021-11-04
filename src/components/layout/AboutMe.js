@@ -1,5 +1,9 @@
 import React from "react";
 import "./AboutMe.css";
+import mobiledevelop from "./aboutmeImg/mobiledevelop.png"
+import webdevelop from "./aboutmeImg/webdevelop.png"
+import designerdevelop from "./aboutmeImg/designerdevelop.png"
+
 
 function AboutMe() {
   return (
@@ -13,7 +17,7 @@ function AboutMe() {
                 <div class="face face1">
                   <div class="content">
                     <img
-                      src="https://cdn-icons.flaticon.com/png/512/1184/premium/1184202.png?token=exp=1635841389~hmac=1128645541985bce78fea64e77716c0a"
+                      src={webdevelop}
                       alt="Web Developer"
                     />
                     <h3>Web Developer</h3>
@@ -35,7 +39,7 @@ function AboutMe() {
                 <div class="face face1">
                   <div class="content">
                     <img
-                      src="https://cdn-icons.flaticon.com/png/512/1285/premium/1285096.png?token=exp=1635841338~hmac=01f4ea1b4563148a65472eb87d82d031"
+                      src={mobiledevelop}
                       alt="Mobile Developer"
                     />
                     <h3>Mobile Developer</h3>
@@ -56,7 +60,7 @@ function AboutMe() {
                 <div class="face face1">
                   <div class="content">
                     <img
-                      src="https://cdn-icons-png.flaticon.com/512/1234/1234457.png"
+                      src={designerdevelop}
                       alt="UX/UI Dedigner"
                     />
                     <h3>UI/UX Designer</h3>

@@ -4,10 +4,10 @@ import "./AboutMe.css";
 function AboutMe() {
   return (
     <div className="aboutme-section pt-5 pb-5">
-      <h1>I am a ...</h1>
+      <h1 className="pt-2">I am a ...</h1>
       <div className="aboutme">
         <div class="container container-aboutme">
-          <div class="row pt-5 mt-5">
+          <div class="row pt-4">
             <div class="col-10 col-md-4 col-sm-10 offset-md-0 offset-sm-2 offset-2">
               <div class="card-aboutme">
                 <div class="face face1">

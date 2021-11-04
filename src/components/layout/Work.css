@@ -25,5 +25,8 @@
 .img-worksection {
   background-image: url("./temaribet.png") no-repeat center;
   background-size: cover;
-  
+}
+
+.donation-image{
+  width: 80% !important;;
 }

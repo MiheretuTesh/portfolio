@@ -36,20 +36,20 @@ function FooterSection() {
                   <span class="footer-title">Portfolio</span>
                 </li>
                 <li class="nav-item">
-                  <HashLink class="nav-link a-footer" to="/#about">
+                  <HashLink class="nav-link a-footer" smooth to="/#about">
                     About
                   </HashLink>
                 </li>
                 <li class="nav-item">
-                  <HashLink class="nav-link a-footer" to="/#work">
+                  <HashLink class="nav-link a-footer" smooth to="/#work">
                     Works
                   </HashLink>
                 </li>
                 <li class="nav-item">
-                  <HashLink class="nav-link a-footer" to="/#award">
+                  <HashLink class="nav-link a-footer" smooth to="/#awards">
                     Awards
                   </HashLink>
-                  <HashLink class="nav-link a-footer" to="/#contact">
+                  <HashLink class="nav-link a-footer" smooth to="/#contact">
                     Contact Me
                   </HashLink>
                 </li>

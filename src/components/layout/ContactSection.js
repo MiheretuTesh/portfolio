@@ -1,9 +1,10 @@
 import React from "react";
 import "./Contact.css";
 import { ExternalLink } from "react-external-link";
-import { withRouter, useHistory  } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { useState } from "react";
 import { send } from "emailjs-com";
+import { HashLink } from "react-router-hash-link";
 
 function ContactSection() {
   const [toSend, setToSend] = useState({
@@ -12,7 +13,7 @@ function ContactSection() {
     reply_to: "",
   });
   let history = useHistory();
-
+  let submit = false;
   const onSubmit = (e) => {
     e.preventDefault();
     history.push("/");
@@ -24,6 +25,8 @@ function ContactSection() {
     )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
+        // history.push("/#about");
+        submit = true;
       })
       .catch((err) => {
         console.log("FAILED...", err);
@@ -34,6 +37,14 @@ function ContactSection() {
       reply_to: "",
     });
   };
+
+  if (submit) {
+    return (
+      <HashLink smooth to="/#about">
+       
+      </HashLink>
+    );
+  }
 
   const handleChange = (e) => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
@@ -181,4 +192,4 @@ function ContactSection() {
   );
 }
 
-export default (ContactSection);
+export default ContactSection;

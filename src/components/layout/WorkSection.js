@@ -1,6 +1,7 @@
 import React from "react";
 import "./Work.css";
 import temaribetImage from "./temaribet.png";
+import donation from "./donation.png"
 
 function WorkSection() {
   return (
@@ -19,11 +20,11 @@ function WorkSection() {
           <div class="col-12 col-lg-6">
             <div class="content">
               <p>
-                This a project done with a team of three member including me.
-                The idea is to create a website that is used to connect Home
-                Tutors and Student. It is a Fullstack website, in which the
-                backend is done using python framwork flask and the frontend was
-                done using JQuery and Bootstrap css.
+                This project was done with a team of three members, including
+                me. The idea is to create a website that is used to connect Home
+                Tutors and students. It is a FullStack website, in which the
+                backend is done using python framework Flask and the frontend
+                was done using jQuery and Bootstrap CSS.
               </p>
             </div>
           </div>
@@ -41,22 +42,24 @@ function WorkSection() {
         <div class="row">
           <div class="col-12 col-lg-6">
             <div
-              style={{ backgroundImage: `url(${temaribetImage})` }}
-              class="img-worksection"
+              style={{ backgroundImage: `url(${donation})` }}
+              class="img-worksection donation-image"
             ></div>
           </div>
           <div class="col-12 col-lg-6">
             <div class="content">
               <p>
                 The idea of the project is to simplify the process of donating
-                blood. So blood donar can register using this platform and make
-                an appointment to donate a blood, which we ask them a series of
-                question to if they are in state of donating a blood.
+                blood. So blood donors can register using this platform and make
+                an appointment to donate blood, which we ask them a series of
+                questions to determine if they are in the state of donating
+                blood.
                 <br />
-                This project is both web based and mobile based project. The web
-                application was done using React, React-Hooks, Nodejs(API) and
-                PostgreSQl. The mobile application was done using Flutter, Bloc
-                for the state management, Nodejs and MongoDB.
+                <br />
+                This project is both a web-based and a mobile-based project. The
+                web application was done using React, React-Hooks, Nodejs (API),
+                and PostgreSQL. The mobile application was done using Flutter,
+                Bloc for the state management, Nodejs, and MongoDB.
               </p>
             </div>
           </div>

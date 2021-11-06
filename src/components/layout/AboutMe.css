@@ -61,14 +61,14 @@
 .container-aboutme .card-aboutme .face.face1 .content h3 {
   margin: 10px 0 0;
   padding: 0;
-  color: rgb(109, 108, 108);
+  color: rgb(163, 159, 159);
   text-align: center;
   font-size: 1.5em;
 }
 
 .container-aboutme .card-aboutme .face.face2 {
   position: relative;
-  background: #fff;
+  background: rgb(225, 223, 223);
   display: flex;
   justify-content: center;
   align-items: center;

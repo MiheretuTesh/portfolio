@@ -72,7 +72,7 @@ function Landing() {
                           ></i>
                         </ExternalLink>
                         <ExternalLink
-                          href="https://www.instagram.com/miheretu_/"
+                          href="https://twitter.com/Miheretu10"
                           target="_blank"
                           className="hero-tag"
                         >

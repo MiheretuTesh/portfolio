@@ -118,9 +118,13 @@ function FooterSection() {
                   </ExternalLink>
                 </li>
                 <li class="list-inline-item">
-                  <Link className=" a-footer" to="#" target="_blank">
+                  <ExternalLink
+                    className=" a-footer"
+                    href="https://twitter.com/Miheretu10"
+                    target="_blank"
+                  >
                     <i class="fab fa-twitter"></i>
-                  </Link>
+                  </ExternalLink>
                 </li>
               </ul>
             </div>

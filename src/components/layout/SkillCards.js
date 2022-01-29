@@ -110,8 +110,8 @@ function SkillCards() {
               <SkillCard
                 imageScr={java}
                 alt="java Icon"
-                title="Java - with two years of Experiences"
-                subtitle="Native Android Application"
+                title="Java"
+                subtitle="Java - with two years of Experiences Native Android Application"
                 additional={[]}
               />
             </div>

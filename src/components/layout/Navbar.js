@@ -39,9 +39,9 @@ function Navbar() {
                   className="nav-link navbar-section-link"
                   // example of custom scroll function using the scroll prop
                   scroll={(el) => el.scrollIntoView({ behavior: "smooth" })}
-                  to={"/#awards"}
+                  t o={"/#awards"}
                 >
-                  Awards
+                   Achievemnts
                 </HashLink>
               </li>
               <li class="nav-item">

@@ -23,7 +23,7 @@ function AboutMe() {
                   <div class="content">
                     <p>
                       For the past three years, I've worked in the field of web
-                      development. I've been working as a FullStack Developer.
+                      development. I've been working as a Fronted Developer.
                       HTML/CSS, JS, React, NodeJs ... are some of my skills.
                     </p>
                   </div>

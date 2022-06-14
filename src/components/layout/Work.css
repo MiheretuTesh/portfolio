@@ -1,5 +1,9 @@
 #work {
   background-color: #fff;
+  font-family: consolas !important;
+}
+#work p {
+  font-size: 1.25rem !important;
 }
 .half-half-image-text {
   padding: 70px 0px;

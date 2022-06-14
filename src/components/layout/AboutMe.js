@@ -1,9 +1,8 @@
 import React from "react";
 import "./AboutMe.css";
-import mobiledevelop from "./aboutmeImg/mobiledevelop.png"
-import webdevelop from "./aboutmeImg/webdevelop.png"
-import designerdevelop from "./aboutmeImg/designerdevelop.png"
-
+import mobiledevelop from "./aboutmeImg/mobiledevelop.png";
+import webdevelop from "./aboutmeImg/webdevelop.png";
+import designerdevelop from "./aboutmeImg/designerdevelop.png";
 
 function AboutMe() {
   return (
@@ -16,10 +15,7 @@ function AboutMe() {
               <div class="card-aboutme">
                 <div class="face face1">
                   <div class="content">
-                    <img
-                      src={webdevelop}
-                      alt="Web Developer"
-                    />
+                    <img src={webdevelop} alt="Web Developer" />
                     <h3>Web Developer</h3>
                   </div>
                 </div>
@@ -38,10 +34,7 @@ function AboutMe() {
               <div class="card-aboutme">
                 <div class="face face1">
                   <div class="content">
-                    <img
-                      src={mobiledevelop}
-                      alt="Mobile Developer"
-                    />
+                    <img src={mobiledevelop} alt="Mobile Developer" />
                     <h3>Mobile Developer</h3>
                   </div>
                 </div>
@@ -49,7 +42,7 @@ function AboutMe() {
                   <div class="content">
                     <p>
                       I have been working in mobile development for the last 2
-                      years. I have worked with Java, Kotlin and Flutter.
+                      years. I have worked with React Native and Flutter.
                     </p>
                   </div>
                 </div>
@@ -59,10 +52,7 @@ function AboutMe() {
               <div class="card-aboutme">
                 <div class="face face1">
                   <div class="content">
-                    <img
-                      src={designerdevelop}
-                      alt="UX/UI Dedigner"
-                    />
+                    <img src={designerdevelop} alt="UX/UI Dedigner" />
                     <h3>UI/UX Designer</h3>
                   </div>
                 </div>

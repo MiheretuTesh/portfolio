@@ -8,6 +8,7 @@ import flutter from "./skillImg/flutter.png";
 import java from "./skillImg/java.png";
 import javascript from "./skillImg/javascript.png";
 import kotlin from "./skillImg/kotlin.png";
+import reactNative from "./skillImg/react_native.png";
 import node from "./skillImg/node.png";
 import python from "./skillImg/python.png";
 import react from "./skillImg/react.png";
@@ -19,7 +20,7 @@ function SkillCards() {
       <div className="cards-skill">
         <div class="container pt-3 mt-3">
           <div>
-            <h6>Web Technologies</h6>
+            <h5>Web Technologies</h5>
           </div>
           <div class="row">
             <div class="col-lg-4 col-md-6 col-10 col-sm-10 offset-md-0 offset-sm-2 offset-2 pt-5">
@@ -53,8 +54,9 @@ function SkillCards() {
                 title="React"
                 subtitle="React - with two years of Experiences"
                 additional={[
-                  "React Class and Functional Components",
-                  "State Management - Using React Redux",
+                  "React Hooks",
+                  // "Class Component and Functional Component",
+                  "State Management - React Redux",
                 ]}
               />
             </div>
@@ -64,30 +66,32 @@ function SkillCards() {
                 alt="node icon"
                 title="NodeJs"
                 subtitle="NodeJs - with two years of Experiences"
-                additional={[
-                  "RESTFUL API using NodeJs",
-                  "Express",
-                  "Mongoosee",
-                ]}
+                additional={["RESTFUL API using NodeJs", "Express, Nest.js"]}
               />
             </div>
             <div class="col-lg-4 col-md-6 col-10 col-sm-10 offset-md-0 offset-sm-2 offset-2 pt-5">
               <SkillCard
                 imageScr={python}
-                alt="Django and Flask Icon"
-                title="Django/Flask"
-                subtitle="Django/Flask - with two years of Experiences"
-                additional={[
-                  "RESTFUL API using Flask",
-                  "Django - Administrative",
-                ]}
+                alt="Flask Icon"
+                title="Flask"
+                subtitle="Flask - with two years of Experiences"
+                additional={["RESTFUL API using Flask"]}
               />
             </div>
           </div>
           <div className="mt-5 pt-5">
-            <h6 className="mt-5">Mobile Technologies</h6>
+            <h5 className="mt-5">Mobile Technologies</h5>
           </div>
           <div class="row">
+            <div class="col-lg-4 col-md-6 col-10 col-sm-10 offset-md-0 offset-sm-2 offset-2 pt-5">
+              <SkillCard
+                imageScr={reactNative}
+                alt={reactNative}
+                title="React Native"
+                subtitle="React Native - with two years of Experiences"
+                additional={[]}
+              />
+            </div>
             <div class="col-lg-4 col-md-6 col-10 col-sm-10 offset-md-0 offset-sm-2 offset-2 pt-5">
               <SkillCard
                 imageScr={flutter}
@@ -97,15 +101,7 @@ function SkillCards() {
                 additional={["Material-UI", "State Management - using BLoC"]}
               />
             </div>
-            <div class="col-lg-4 col-md-6 col-10 col-sm-10 offset-md-0 offset-sm-2 offset-2 pt-5">
-              <SkillCard
-                imageScr={kotlin}
-                alt={kotlin}
-                title="Kotlin"
-                subtitle="Kotlin - with two years of Experiences"
-                additional={[]}
-              />
-            </div>
+
             <div class="col-lg-4 col-md-6 col-10 col-sm-10 offset-md-0 offset-sm-2 offset-2 pt-5">
               <SkillCard
                 imageScr={java}

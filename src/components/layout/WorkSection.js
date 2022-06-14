@@ -1,7 +1,8 @@
 import React from "react";
 import "./Work.css";
 import temaribetImage from "./temaribet.png";
-import donation from "./donation.png"
+import donation from "./donation.png";
+import publicBus from "./pb.jpeg";
 
 function WorkSection() {
   return (
@@ -10,7 +11,7 @@ function WorkSection() {
         <div class="row">
           <div class="col-12">
             <h1 className="header-text">Works</h1>
-            <p>Some of project that I have involved in </p>
+            <h5>Some of project that I have involved in </h5>
           </div>
         </div>
         <div className="pt-3 mt-3 mb-5">
@@ -37,15 +38,37 @@ function WorkSection() {
         </div>
         <hr />
         <div className="pt-5 mt-5 mb-5">
-          <h3>Blood Donation System</h3>
+          <h3>Engida Travels</h3>
         </div>
         <div class="row">
           <div class="col-12 col-lg-6">
             <div
-              style={{ backgroundImage: `url(${donation})` }}
+              style={{ backgroundImage: `url(${publicBus})` }}
               class="img-worksection donation-image"
             ></div>
           </div>
+          <div class="col-12 col-lg-6">
+            <div class="content">
+              <p>
+                Booking Bus tickets through an online platform, which has a
+                mobile application for the clients and admin dashboard for
+                different admin roles. This project was build using latest
+                mobile and web development technologies like React.js, Redux,
+                Nest.js and Flutter.
+                {/* <br />
+                <br />
+                This project is both a web-based and a mobile-based project. The
+                web application was done using React, React-Hooks, Nodejs (API),
+                and PostgreSQL. The mobile application was done using Flutter,
+                Bloc for the state management, Nodejs, and MongoDB. */}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="pt-5 mt-5 mb-5">
+          <h3>Blood Donation System</h3>
+        </div>
+        <div class="row">
           <div class="col-12 col-lg-6">
             <div class="content">
               <p>
@@ -62,6 +85,12 @@ function WorkSection() {
                 Bloc for the state management, Nodejs, and MongoDB.
               </p>
             </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div
+              style={{ backgroundImage: `url(${donation})` }}
+              class="img-worksection donation-image"
+            ></div>
           </div>
         </div>
         {/* <div className="pt-5 mt-5">

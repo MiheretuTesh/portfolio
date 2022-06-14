@@ -22,14 +22,15 @@ function App() {
         <Landing />
         <About id="about" />
         <Work id="works" />
-        <Award id="awrads" />
+        <Award id="awards" />
         <Contact id="contact" />
         <FooterSection />
         <Switch>
           <Route
             path="/linkedin"
             component={() => {
-              window.location.href = "www.linkedin.com/in/miheretu-teshale-064b39207";
+              window.location.href =
+                "www.linkedin.com/in/miheretu-teshale-064b39207";
               return null;
             }}
           />{" "}
